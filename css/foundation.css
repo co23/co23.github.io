@@ -2378,9 +2378,9 @@ select {
   padding-bottom: 0;
   padding: 0.7rem 1rem; }
 
-html,
+/*html,
 body {
-  height: 100%; }
+  height: 100%; }*/
 
 .off-canvas-wrapper {
   width: 100%;

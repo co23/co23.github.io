@@ -1,124 +1,27 @@
 body {
-		height: 100%;
-		background-color: #2F2F2F;
+		background-color: #000641;
+
 }
 
 
 .logo img{
-	margin-top: 5VH;
+	margin-top: 15VH;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.feature {
+ .bg{
+	 z-index: -99;
+	 background-image: url(../img/bg.png);
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 min-height: 600pt;
+	 position:absolute;
+		bottom:0px;
+		width:100%;
+ }
+
+img {
 	margin-top: 100pt;
-	background-color: #464646;
-	min-height: 400pt;
-	width: 100%;
-}
-
-
-.dl-btn {
-
-background: #DCD57B;
-border: 8px solid #2F2F2F;
-border-radius: 21px;
-height: 100pt;
-margin: 0 auto;
-font-family: 'Open Sans';
-font-weight: 700;
-font-size: 24px;
-color: #2F2F2F;
-letter-spacing: 4px;
-text-align: center;
-vertical-align: middle;
-line-height: 90pt;       /* the same as your div height */
-
-}
-.dl-btn:hover{
-	font-family: 'Comic Sans MS';
-}
-h1{
-
-	font-family: 'Open Sans';
-	font-weight: 700;
-	font-size: 24px;
-
-
-}
-h3{
-	text-align: center;
-}
-h3 a:hover{
-	color: #CEC656;
-
-}
-a {
-	/* CHARACTER PREVIEWS: */
-	font-family: 'Open Sans';
-	font-weight: 700;
-	text-align: center;
-	font-size: 24px;
-	color: #CEC656;
-	letter-spacing: 4.8px;
-	line-height: 19.2px;
-}
-
-
-p{
-	font-family: 'Open Sans';
-
-}
-.video-player{
-	background-color: #2F2F2F;
-	width: 400pt;
-	height:220pt;
-	margin: 0 auto;
-	padding-top: 70pt;
-	margin-top: 5vh;
-	margin-bottom: 5vh;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-}
-.video-player svg {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-.video-player svg:hover {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -3pt;
-	width: 72pt;
-	height: 72pt;
-}
-
-.footer{
-	display: flex;
-	justify-content: space-around;
-	align-items: baseline;
-	padding-top: 5vh;
-	height: 200pt;
-}
-
-.footer li, .footer a{
-
-	font-family: 'Open Sans';
-	font-size: 24px;
-	color: #464646;
-	letter-spacing: 4.8px;
-	line-height: 19.2px;
-	list-style-type: none;
-	display: inline-flex;
-
-}
-
-a:hover{
-	font-family: 'Comic Sans MS';
-
-
 }
